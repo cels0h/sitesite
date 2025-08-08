@@ -13,14 +13,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fce4ec; /* Rosa claro muito suave */
+    color: #fdecea; /* Vermelho bem claro para o texto geral */
+    background-color: #880e4f; /* Vinho escuro como fundo */
     scroll-behavior: smooth; /* Rolagem suave para os links */
 }
 
 /* --- Hero Section (Capa) --- */
 .hero-section {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('fundo-romantico.jpg') no-repeat center center/cover; /* Adicione uma imagem de fundo sutil se quiser */
+    background: linear-gradient(rgba(136, 14, 79, 0.8), rgba(136, 14, 79, 0.8)), url('fundo-romantico.jpg') no-repeat center center/cover; /* Fundo vinho com transparência */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,10 +33,10 @@ body {
 
 .hero-content {
     max-width: 900px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente para o conteúdo */
+    background-color: rgba(255, 235, 238, 0.9); /* Vermelho bem claro semi-transparente para o conteúdo */
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     animation: fadeIn 2s ease-out; /* Animação suave */
 }
 
@@ -45,22 +45,22 @@ body {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #ff6f61; /* Vermelho suave */
+    border: 5px solid #c62828; /* Vermelho mais escuro */
     margin-bottom: 25px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .hero-title {
     font-family: 'Great Vibes', cursive;
     font-size: 3.5em;
-    color: #880e4f; /* Vinho escuro */
+    color: #d32f2f; /* Vermelho */
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .hero-text {
     font-size: 1.1em;
-    color: #555;
+    color: #4a142e; /* Tom de vinho mais claro para o texto */
     margin-bottom: 15px;
     line-height: 1.8;
 }
@@ -68,7 +68,7 @@ body {
 .hero-signature {
     font-family: 'Great Vibes', cursive;
     font-size: 2em;
-    color: #c2185b; /* Rosa escuro */
+    color: #9a0036; /* Vinho mais intenso */
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -79,7 +79,7 @@ body {
 
 .nav-button {
     display: inline-block;
-    background-color: #ff6f61; /* Vermelho suave */
+    background-color: #c62828; /* Vermelho mais escuro */
     color: white;
     padding: 12px 25px;
     margin: 8px;
@@ -87,11 +87,11 @@ body {
     text-decoration: none;
     font-weight: 700;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .nav-button:hover {
-    background-color: #e05c5c; /* Tom mais escuro ao passar o mouse */
+    background-color: #9a0007; /* Tom de vermelho ainda mais escuro ao passar o mouse */
     transform: translateY(-3px);
 }
 
@@ -100,40 +100,40 @@ body {
     padding: 80px 20px;
     max-width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #ffebee; /* Vermelho bem claro como fundo das seções */
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     margin-bottom: 40px;
     animation: slideInUp 1s ease-out forwards;
     opacity: 0; /* Começa invisível para a animação */
 }
 
 .content-section:first-of-type {
-    margin-top: 0
+    margin-top: -80px; /* Mantendo a sobreposição, caso queira */
 }
 
 .content-section h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 3em;
-    color: #880e4f;
+    color: #d32f2f; /* Vermelho */
     text-align: center;
     margin-bottom: 50px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .content-section h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8em;
-    color: #c2185b;
+    color: #e53935; /* Vermelho um pouco mais claro */
     margin-top: 30px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #ffcdd2; /* Linha sutil */
+    border-bottom: 2px solid #ffcdd2; /* Rosa claro para a linha */
     padding-bottom: 5px;
 }
 
 .content-section p {
     font-size: 1.1em;
-    color: #444;
+    color: #4a142e; /* Tom de vinho escuro para o texto */
     margin-bottom: 20px;
     line-height: 1.7;
 }
@@ -152,7 +152,8 @@ body {
     height: auto;
     border-radius: 10px;
     margin-top: 25px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border: 2px solid #ffcdd2; /* Adicionando uma borda rosa clara nas imagens */
 }
 
 /* --- Nossas Fotos (Galeria) --- */
@@ -165,7 +166,7 @@ body {
 .gallery-item {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
@@ -180,13 +181,13 @@ body {
     height: 250px;
     object-fit: cover;
     display: block;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #ffcdd2; /* Borda rosa clara */
 }
 
 .gallery-item figcaption {
     padding: 15px;
     font-size: 0.95em;
-    color: #666;
+    color: #4a142e; /* Mantendo um tom de vinho para contraste */
     font-style: italic;
 }
 
@@ -202,12 +203,12 @@ body {
 
 .music-item li {
     margin-bottom: 10px;
-    color: #555;
+    color: #4a142e; /* Tom de vinho escuro para os itens da lista */
 }
 
 .spotify-link {
     display: inline-block;
-    background-color: #1DB954; /* Cor verde do Spotify */
+    background-color: #e53935; /* Vermelho um pouco mais claro */
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
@@ -218,22 +219,22 @@ body {
 }
 
 .spotify-link:hover {
-    background-color: #1ed760;
+    background-color: #b71c1c; /* Tom de vermelho ainda mais escuro */
 }
 
 /* --- Recados de Amor / Para o Futuro --- */
 .message-box {
-    background-color: #fff8e1; /* Amarelo suave */
-    border: 1px dashed #ffd54f; /* Borda pontilhada */
+    background-color: #ffebee; /* Vermelho bem claro */
+    border: 1px dashed #f44336; /* Borda vermelha pontilhada */
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .message-box .signature, .content-section .signature {
     font-family: 'Great Vibes', cursive;
     font-size: 1.8em;
-    color: #c2185b;
+    color: #9a0036; /* Vinho mais intenso */
     margin-top: 30px;
     text-align: right;
     display: block;
@@ -244,18 +245,19 @@ body {
     height: auto;
     border-radius: 10px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     display: block; /* Garante que ela ocupe a largura total disponível */
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid #ffcdd2; /* Borda rosa clara na imagem */
 }
 
 /* --- Rodapé --- */
 footer {
     text-align: center;
     padding: 30px 20px;
-    background-color: #ffcdd2; /* Rosa mais escuro */
-    color: #880e4f;
+    background-color: #f44336; /* Vermelho */
+    color: #ffebee; /* Vermelho bem claro para o texto do rodapé */
     font-size: 0.9em;
     margin-top: 50px;
 }
