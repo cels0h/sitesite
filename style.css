@@ -109,7 +109,7 @@ body {
 }
 
 .content-section:first-of-type {
-    margin-top: 0
+    margin-top: -80px; /* Sobrepõe um pouco a hero section */
 }
 
 .content-section h2 {
